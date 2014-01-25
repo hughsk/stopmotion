@@ -1,0 +1,29 @@
+{
+  "name": "stopmotion",
+  "description": "Combine multiple image buffer frames into a video file",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "graceful-fs": "~2.0.1",
+    "rimraf": "~2.2.6",
+    "mkdirp": "~0.3.5",
+    "quick-tmp": "0.0.0",
+    "streamify": "~0.2.2"
+  },
+  "devDependencies": {
+    "gif-explode": "0.0.0"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/stopmotion"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/stopmotion/issues"
+  }
+}
