@@ -72,12 +72,12 @@ StopMotion.prototype.check = function() {
   var ps = spawn('ffmpeg', [
     // input
       '-f',      'image2'
-    , '-vf',     'scale='+this.width+':'+this.height
     , '-vcodec', this.inCodec
     , '-i',      this._prefix + '%08d'
 
     // output
     , '-f',      this.format
+    , '-vf',     'scale='+this.width+':'+this.height
     , '-vcodec', this.outCodec
     , '-crf',    this.crf
     , '-' // output to stdout
