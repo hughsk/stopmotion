@@ -1,7 +1,7 @@
 {
   "name": "stopmotion",
   "description": "Combine multiple image buffer frames into a video file",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
